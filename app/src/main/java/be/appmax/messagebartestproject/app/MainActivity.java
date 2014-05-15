@@ -46,6 +46,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         messageBar.show("Test 1");
-        messageBar.show("Test 2");
+        messageBar.show("Message", "Button!", R.drawable.ic_messagebar_undo);
     }
 }

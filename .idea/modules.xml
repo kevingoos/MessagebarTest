@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MessagebarTest.iml" filepath="$PROJECT_DIR$/MessagebarTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessagebarTestProject.iml" filepath="$PROJECT_DIR$/MessagebarTestProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/messagebar/messagebar.iml" filepath="$PROJECT_DIR$/libraries/messagebar/messagebar.iml" />

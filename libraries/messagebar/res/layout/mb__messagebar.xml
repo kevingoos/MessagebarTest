@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/mbContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
     style="?attr/messageBarContainerStyle">
 
     <TextView
         android:id="@id/mbMessage"
-        style="?attr/messageBarTextStyle" />
+        style="?attr/messageBarTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@id/mbButton"
-        style="?attr/messageBarButtonStyle" />
+        style="?attr/messageBarButtonStyle"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
 </LinearLayout>
